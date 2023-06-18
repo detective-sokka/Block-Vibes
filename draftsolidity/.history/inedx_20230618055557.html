@@ -1,0 +1,27 @@
+<!-- HTML code (index.html) -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Solidity Contract</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>My Solidity Contract</h1>
+            <p>Current value: <span id="current-value"></span></p>
+            <label for="new-value">New value:</label>
+            <input id="new-value" type="number" min="0" step="1" value="0">
+            <button id="set-value">Set value</button>
+            <button id="connect-wallet">Connect to MetaMask</button>
+
+        </div>
+        <script src="./metamask.js"></script>
+
+        <script src="app.js"></script>
+        <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    </body>
+</html>
+
+<!-- CSS code (style.css) -->
