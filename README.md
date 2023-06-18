@@ -19,3 +19,6 @@ It is a Decentralized social media application (DApp) that leverages Moonbeam to
 2. Run 'npm i' command in both client and server folders
 3. Run 'node app.js' in a seperate terminal to run the back-end 
 4. Run 'npm start' in client to run the front-end 
+
+## Architecture diagram
+<img src="architecture-diagram.png">
