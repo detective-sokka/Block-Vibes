@@ -1,0 +1,43 @@
+.profile-icon{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+.profile{
+    max-width: 550px;
+    margin: 0px auto;
+}
+
+.user-profile{
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 0px;
+    border-bottom: 1px solid grey;
+}
+.content-section{
+    display: flex;
+    justify-content: space-around;
+    width: 108%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 30%;
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+    .item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .item {
+        width: 70%;
+    }
+}

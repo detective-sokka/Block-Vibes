@@ -1,0 +1,12 @@
+.input-filed{
+    margin: 30px auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .create-card {
+        width: 95% !important;
+    }
+}

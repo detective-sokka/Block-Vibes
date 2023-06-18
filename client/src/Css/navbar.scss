@@ -1,0 +1,78 @@
+.nav-wrapper {
+  display: block;
+  width: 100%;
+  background-color: #002B5B !important;
+  position: relative;
+  height: 90%;
+}
+
+
+
+.brand-logo {
+  display: flex;
+  align-self: flex-end;
+  font-family: fantasy;
+  font-size: 25px;
+  font-style: bold;
+  margin-top: 12px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002B5B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: inherit;
+  
+  
+}
+
+ul a:hover {
+  background-color: #678983;
+}
+
+.right {
+  justify-self: right;
+}
+
+.sidenav-icon {
+  float: right !important;
+  text-decoration: none;
+}
+
+.left{
+  margin-left: 20px;
+}
+
+.btn{
+  color: white;
+  margin-right: 20px;
+}
+
+.links :hover{
+  background-color: #E4DCCF;
+  color: black;
+}
+
+// ul li:hover{
+//   background-color: #E6DDC4;
+//   color: white;
+// }

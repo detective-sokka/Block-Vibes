@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.brand-logo ,h2{
+font-family: 'Caveat bold', cursive ;
+
+}
+
+.body{
+  background-color: #F0E9D2;
+}
+
+.mycard{
+  margin-top: 30px;
+  
+ padding-left: 500px;
+ padding-top:200px ;
+}
+
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.input-field input[type=text]:focus{
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+.input-field input[type=password]:focus{
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+.home-card {
+  max-width: 550px;
+  height: max-content;
+  margin: 26px auto;
+}
+.material-icons{
+  color: red;
+}
+
+#toast-container{
+  top: 30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+
+.material-icons:hover{
+
+  cursor: pointer;
+}
+
+.content {
+  margin: 10px;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home-card {
+    width: 95% !important;
+  }
+}
