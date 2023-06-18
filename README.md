@@ -1,1 +1,1 @@
-# EasyAxPolkadot_Hackathon
+# EasyA x Polkadot_Hackathon
